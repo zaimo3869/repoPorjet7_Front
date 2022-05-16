@@ -1,0 +1,170 @@
+
+/* -------------------------Font style-------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,300&family=Roboto:wght@100&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,300&family=Oswald:wght@300;400;500&family=Roboto:wght@100&family=Shrikhand&display=swap');
+/* -------------------------Nav section-------------------*/
+nav{ 
+  background-color: hsl(193, 95%, 68%);
+  height: 49px;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 20%;
+}
+h1{
+  
+  font-family: 'Oswald', sans-serif;
+}
+.btnNav{
+  line-height: 2.5;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+}
+.btnNav:hover{
+  background-color: hsl(260, 97%, 53%);
+}
+/* -------------------------Signup section-------------------*/
+.Signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.postDislay{
+  display: flex;
+}
+.e{
+  margin-top: 0%;
+  background-color:rgb(97, 118, 251) ;
+  border: none;
+  border-radius: 20px;
+  margin-left: 5%; 
+  position: fixed;
+}
+.Comment{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* -------------------------Profile section-------------------*/
+
+.Profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.profile_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 118, 251);
+  height: 60%;
+  border-radius: 25px;
+}
+.profile_info_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.profile_info_p{
+  flex-wrap: wrap;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 5%;
+  display: flex;
+}
+/* -------------------------Input section-------------------*/
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 300px;
+  font-family: 'Bebas Neue', cursive;
+}
+.inputDivLog{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*------------------Post div ----------------*/
+
+.Postdiv{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 2/1;
+  width: 60%;
+  border-radius: 25px;
+  background-color: hsl(208, 100%, 87%);
+  font-family: 'Bebas Neue', cursive;
+}
+.PostComm{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 2/1;
+  width: 50%;
+  border-radius: 25px;
+  background-color: hsl(108, 100%, 87%);
+  font-family: 'Bebas Neue', cursive;
+}
+.Titre{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Oswald', sans-serif;
+}
+.message{
+  display: flex;
+  justify-content: center;
+}
+
+.divND{
+  display: inline-flex;
+  justify-content: space-between;  
+}
+.nom{
+  margin-left: 10%;
+}
+.postDate{
+  margin-right: 10%;
+}
+.comment{
+  background-color:rgb(97, 118, 251) ;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+button{
+  margin-top: 10%;
+  background-color:rgb(97, 118, 251) ;
+  border: none;
+  border-radius: 20px;
+  width: 30%;
+  margin-left: 30%;
+}
+input{
+  border: none;
+  box-shadow:0px 1px 5px 1px rgb(206, 196, 211);
+}
